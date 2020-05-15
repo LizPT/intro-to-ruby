@@ -3,6 +3,7 @@ puts "What is your first name?"
 puts "What is your last name?"
   last_name = gets.chomp
 puts "Welcome, #{first_name + " " + last_name}!"
+
 10.times do
   puts first_name
 end
